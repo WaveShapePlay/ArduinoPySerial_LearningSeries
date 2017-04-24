@@ -1,4 +1,5 @@
-#WaveShapePlay
+# WaveShapePlay
+# Check out for a full tutorial for the code below: https://youtu.be/qg9sO4AD8-A
 
 import serial
 import time
