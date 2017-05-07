@@ -1,5 +1,5 @@
 # WaveShapePlay
-# For a detailed YouTube tutorial visit: 
+# For a detailed YouTube tutorial visit: https://youtu.be/T-s-2tBUfLM
 
 import serial
 import time
