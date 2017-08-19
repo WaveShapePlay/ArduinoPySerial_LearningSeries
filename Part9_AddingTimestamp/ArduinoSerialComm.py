@@ -57,7 +57,7 @@ while(1):
     if userInput == 'c':
         timeStamp = 'true'
         data = getValues(timeStamp)
-        dataPonit = data[0]
+        dataPoint = data[0]
         timeCollected = data[1]
         timeCollected = timeCollected.strip()
         unitTime = timeCollected[-2:]
@@ -71,7 +71,7 @@ while(1):
             timeValue = int(deltaTime)
             timeValue = timeValue/1000000
 
-        print('Data Point: ' + dataPonit + 
+        print('Data Point: ' + dataPoint + 
         '  Time from last point: ' + str(timeValue) + 's')
 
     if userInput == 'n':
