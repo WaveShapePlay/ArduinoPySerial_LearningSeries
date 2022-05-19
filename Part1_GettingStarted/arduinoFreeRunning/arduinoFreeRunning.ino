@@ -13,8 +13,7 @@ void loop(){
 
 
       data = analogRead(analogPin);    // read the input pin
-      Serial.println(data);
-      delay(10);
+      Serial.println(data);            // print the data to the serial bus
 
 } // Void Loop
 
